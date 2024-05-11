@@ -1,6 +1,7 @@
-/*
-    Regras de Negócio
-    * Não pode ser modificada depois de criada.
-    * Obrigatoriamente tem uma data, quantidade e valor.
-    * Seu volume é calculado multiplicando-se a quantidade negociada no dia pelo valor negociado.
-*/
+import { Negociacao } from "./models/negociacao.js";
+
+const negociacao = new Negociacao(new Date(), 10, 100);
+
+console.log(negociacao);
+negociacao.quantidade = 10000;
+console.log(negociacao);
