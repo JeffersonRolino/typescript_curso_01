@@ -1,5 +1,5 @@
-import { Negociacao } from "./negociacao";
+import { Negociacao } from "./negociacao.js";
 
 export class Negociacoes {
-    private negociacoes: Negociacao[] = [];
+    private negociacoes: Array<Negociacao> = [];
 }
