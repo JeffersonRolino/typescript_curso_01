@@ -8,6 +8,6 @@ export class Negociacoes {
     }
 
     public lista(): Array<Negociacao>{
-        return this.negociacoes;
+        return [...this.negociacoes];
     }
 }
